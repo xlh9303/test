@@ -15,8 +15,8 @@
 <!--#{}中的内容，为占位符，当参数为某个JavaBean时，表示放置该Bean对象的属性值  -->
 
 
-    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
-        insert into t_user (username,password,account) values (#{username},#{password},#{account})
+    <insert id="insertUser">
+        insert into t_user (id,username,password,account) values (#{id},#{username},#{password},#{account})
     </insert>
     
     <update id="updateUser" >
