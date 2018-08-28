@@ -16,7 +16,6 @@
       http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
       http://www.springframework.org/schema/mvc
       http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
-      http://www.w3.org/2001/xml.xsd
       ">
       
 	<bean id="userDao4Orcl" class="com.xlh.springtest.dao.UserDao4OrclImpl"/>
